@@ -1,17 +1,17 @@
-namespace TreehouseDefense
+namespace InvaderGameConsole
 {
-    class TreehouseDefenseException : System.Exception
+    class InvaderGameConsoleException : System.Exception
     {
-        public TreehouseDefenseException()
+        public InvaderGameConsoleException()
         {
         }
         
-        public TreehouseDefenseException(string message) : base(message)
+        public InvaderGameConsoleException(string message) : base(message)
         {
         }
     }
     
-    class OutOfBoundsException : TreehouseDefenseException
+    class OutOfBoundsException : InvaderGameConsoleException
     {
         public OutOfBoundsException()
         {

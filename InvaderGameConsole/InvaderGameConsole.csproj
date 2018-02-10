@@ -42,6 +42,8 @@
     <Compile Include="Path.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Tower.cs" />
+    <Compile Include="FastInvader.cs" />
+    <Compile Include="ShieldedInvader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

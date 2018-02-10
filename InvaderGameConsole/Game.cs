@@ -1,6 +1,6 @@
 using System;
 
-namespace TreehouseDefense
+namespace InvaderGameConsole
 {
     class Game
     {
@@ -50,7 +50,7 @@ namespace TreehouseDefense
             {
                 Console.WriteLine(ex.Message);
             }
-            catch(TreehouseDefenseException)
+            catch(InvaderGameConsoleException)
             {
                 Console.WriteLine("Unhandled TreehouseDefenseException");
             }

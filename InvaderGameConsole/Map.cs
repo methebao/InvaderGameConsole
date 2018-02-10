@@ -1,4 +1,4 @@
-namespace TreehouseDefense
+namespace InvaderGameConsole
 {
     class Map
     {
