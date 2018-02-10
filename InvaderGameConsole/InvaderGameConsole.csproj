@@ -50,6 +50,7 @@
     <Compile Include="StrongInvader.cs" />
     <Compile Include="BasicInvader.cs" />
     <Compile Include="Invader.cs" />
+    <Compile Include="ResurrectingInvader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
