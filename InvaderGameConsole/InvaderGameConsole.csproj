@@ -35,7 +35,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Exceptions.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="Invader.cs" />
+    <Compile Include="IInvader.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="MapLocation.cs" />
@@ -49,6 +49,7 @@
     <Compile Include="LongRangeTower.cs" />
     <Compile Include="StrongInvader.cs" />
     <Compile Include="BasicInvader.cs" />
+    <Compile Include="Invader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,6 +6,8 @@
 
         public ShieldedInvader(Path path) : base(path)
         { }
+        public override int Health { get; protected set; } = 2;
+
 
         public override void DecreaseHealth(int factor)
         {
