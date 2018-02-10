@@ -52,5 +52,11 @@
     <Compile Include="Invader.cs" />
     <Compile Include="ResurrectingInvader.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images_demo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images_demo\Screen Shot 2018-02-10 at 11.27.08 AM.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
